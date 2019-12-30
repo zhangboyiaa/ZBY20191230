@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.Main2Activity">
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_marginLeft="@dimen/dp_50"
+        android:layout_marginRight="@dimen/dp_50"
+        android:hint="请输入生成内容"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <requestFocus/>
+    <Button
+        android:id="@+id/buua"
+        android:text="生成"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/buub"
+        android:text="打开相机扫一扫"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/buuc"
+        android:text="打开相册扫一扫"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100" />
+    <Button
+        android:id="@+id/buud"
+        android:text="发送数据"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/buue"
+        android:text="接受数据"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
